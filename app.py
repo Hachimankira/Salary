@@ -22,12 +22,12 @@ excel_file= 'salaries.xlsx'
 sheet_name='ds_salaries.csv'
 
 #creating data frames
-df=pd.read_excel('salaries.xlsx',
+df=pd.read_excel('excel_file',
                sheet_name=sheet_name,
                usecols='A:K',
                header=0)
 
-df_CompanySize=pd.read_excel('salaries.xlsx',
+df_CompanySize=pd.read_excel('excel_file',
                sheet_name=sheet_name,
                usecols= 'L:M',
                header=0)
