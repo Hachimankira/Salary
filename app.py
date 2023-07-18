@@ -17,8 +17,8 @@ st.set_page_config(page_title="Salary Datas")
 st.header('Data Science Salary')
 st.subheader('Python project by Kiran Shrestha')
 
-# load dataframe
-excel_file= 
+# # load dataframe
+excel_file= 'salaries.xlsx'
 sheet_name='ds_salaries.csv'
 
 #creating data frames
