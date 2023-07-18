@@ -18,7 +18,7 @@ st.header('Data Science Salary')
 st.subheader('Python project by Kiran Shrestha')
 
 # load dataframe
-excel_file= './salaries.xlsx'
+excel_file= 
 sheet_name='ds_salaries.csv'
 
 #creating data frames
