@@ -18,17 +18,17 @@ st.header('Data Science Salary')
 st.subheader('Python project by Kiran Shrestha')
 
 # # load dataframe
-excel_file= 'salaries.xlsx'
+excel_file= 'salary.xlsx'
 sheet_name='ds_salaries.csv'
 
 #creating data frames
-df=pd.read_excel('excel_file',
-               sheet_name=sheet_name,
+df=pd.read_excel(excel_file,
+               sheet_name= 'ds_salaries.csv',
                usecols='A:K',
                header=0)
 
-df_CompanySize=pd.read_excel('excel_file',
-               sheet_name=sheet_name,
+df_CompanySize=pd.read_excel(excel_file,
+               sheet_name='ds_salaries.csv',
                usecols= 'L:M',
                header=0)
 
